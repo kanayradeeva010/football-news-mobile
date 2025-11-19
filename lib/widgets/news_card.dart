@@ -38,6 +38,7 @@ class ItemCard extends StatelessWidget {
               context,
               MaterialPageRoute(builder: (context) => NewsFormPage()),
               );
+              
           } else if(item.name == "See Football News"){
              Navigator.push(
                 context,
